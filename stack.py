@@ -25,6 +25,7 @@ class Stack:
         if(self.top==-1):
             print("no number in stack\n")
             return
+        
         print(','.join(str(self.st[i]) for i in range(self.top,-1,-1)))
         
 
